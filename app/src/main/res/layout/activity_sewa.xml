@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FORM SEWA"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etNamaPenyewa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama penyewa"
+            android:inputType="text"/>
+
+        <Spinner
+            android:id="@+id/spinnerBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etHari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah hari"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</LinearLayout>
